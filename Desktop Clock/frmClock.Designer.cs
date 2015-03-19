@@ -38,7 +38,7 @@
             // lblClockDisplay
             // 
             this.lblClockDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(90)))));
-            this.lblClockDisplay.Font = new System.Drawing.Font("Lucida Sans Typewriter", 48F, System.Drawing.FontStyle.Bold);
+            this.lblClockDisplay.Font = new System.Drawing.Font("Consolas", 52F, System.Drawing.FontStyle.Bold);
             this.lblClockDisplay.Location = new System.Drawing.Point(12, 9);
             this.lblClockDisplay.Name = "lblClockDisplay";
             this.lblClockDisplay.Size = new System.Drawing.Size(225, 98);
@@ -50,10 +50,10 @@
             // lblDate
             // 
             this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Sitka Subheading", 16F);
-            this.lblDate.Location = new System.Drawing.Point(6, 110);
+            this.lblDate.Font = new System.Drawing.Font("Consolas", 14F);
+            this.lblDate.Location = new System.Drawing.Point(12, 117);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(84, 32);
+            this.lblDate.Size = new System.Drawing.Size(80, 22);
             this.lblDate.TabIndex = 2;
             this.lblDate.Text = "lblDate";
             this.lblDate.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lblDate_MouseDown);
@@ -113,6 +113,7 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmClock_MouseDown);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

@@ -95,9 +95,9 @@ namespace Desktop_Clock
 
         private void lblOrangeTheme_Click(object sender, EventArgs e)
         {
-            this.lblClockDisplay.BackColor = System.Drawing.Color.FromArgb(255, 160, 90);
-            this.BackColor = System.Drawing.Color.FromArgb(255, 108, 9);
-            this.lblClose.BackColor = System.Drawing.Color.FromArgb(255, 108, 9);
+            this.lblClockDisplay.BackColor = Color.FromArgb(255, 160, 90);
+            this.BackColor = Color.FromArgb(255, 108, 9);
+            this.lblClose.BackColor = Color.FromArgb(255, 108, 9);
         }
 
         private void lblBlueTheme_Click(object sender, EventArgs e)
